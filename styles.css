@@ -123,12 +123,68 @@ body {
     justify-content: space-between;
 }
 
+.stickyFooter {
+    display: flex;
+    margin: 16px 8px;
+    align-items: center;
+}
+
+.primaryButton {
+    height: 32px;
+    width: fit-content;
+    padding: 0 8px 0 8px;
+    background-color: #14151A;
+    display: flex;
+    align-items: center;
+}
+
+.primaryButton a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-decoration: none;
+}
+
+.plainButtonIconLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    height: 32px;
+}
+
+.plainButtonIconLeft a {
+    color:#14151A;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+ }
+
 
 /* For tablets (768px to 1024px) */
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .contentGrid {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Two columns for tablet */
+        gap: 16px;
+    }
+}
+
+@media (min-width: 1024px){
+    .contentGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three columns for pc */
         gap: 16px;
     }
 }
