@@ -1,0 +1,116 @@
+body {
+    margin: 0%;
+}
+
+
+.fullBody {
+    margin: 24px 16px 24px 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 0 48px 0;
+}
+
+.h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 125%;
+    margin: 0;
+}
+
+.largeBody {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px; 
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    color: #34384C;
+}
+
+
+.icon {
+    width: 32px; 
+    height: 32px;
+}
+
+.subtitle {
+
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    margin: 0;
+    color: #5C6073;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.h3 {
+    color: #14151A;
+    font-weight: 600;
+    margin: 0;
+    font-size: 20px;
+    line-height: 22px;
+}
+.projectTile {
+    text-decoration: none;
+}
+.text {
+    margin-right: auto;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+
+}
+
+.imageBox {
+    margin-bottom: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.projectSection {
+    margin: 0 0 48px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+
+
+    position: sticky;
+    top: 0; /* Distance from the top of the viewport */
+    z-index: 1000; /* Ensures it stays above other elements */
+    background-color: #ffffff; /* Background to avoid transparency issues */
+    /* padding: 16px; */
+}
+
+
+.iconButton {
+    background-color: #14151A;
+    height: 56px;
+    width: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia {
+    display: flex;
+    gap: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
