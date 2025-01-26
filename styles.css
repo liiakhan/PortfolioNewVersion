@@ -1,3 +1,8 @@
+
+/*mobile first*/
+
+
+
 body {
     margin: 0%;
 }
@@ -111,6 +116,19 @@ body {
 }
 
 .footer {
+
+
+
     display: flex;
     justify-content: space-between;
+}
+
+
+/* For tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contentGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns for tablet */
+        gap: 16px;
+    }
 }
