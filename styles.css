@@ -19,6 +19,12 @@ body {
     gap: 24px;
     margin: 0 0 48px 0;
 }
+.textBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 0 48px 0;
+}
 
 .h1 {
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -36,7 +42,14 @@ body {
     margin: 0;
     color: #34384C;
 }
-
+.largeBodyBold {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px; 
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0;
+    color: #34384C;
+}
 
 .icon {
     width: 32px; 
@@ -127,6 +140,11 @@ body {
     display: flex;
     margin: 16px 8px;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Ensures it spans the width of the screen */
+    z-index: 9999;
 }
 
 .primaryButton {
