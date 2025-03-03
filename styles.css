@@ -1,7 +1,10 @@
 
 /*mobile first*/
 
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
 
+}
 
 body {
     margin: 0%;
@@ -205,4 +208,42 @@ body {
         grid-template-columns: repeat(3, 1fr); /* Three columns for pc */
         gap: 16px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#googleH2 {
+    font-size: 20px;
+    color: #14151A;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.imgContent {
+    background-image: url(images/ezgif.com-animated-gif-maker.gif);
+    background-size: cover; /* Ensures the image covers the div */
+    background-position: center; /* Centers the image */
+    width: 100%; /* Example width */
+    height: 200px;
+}
+
+
+.responsiveImg {
+    width: 100%;
+    height: auto;
+}
+
+.imgDiv {
+    width: 100%;
 }
