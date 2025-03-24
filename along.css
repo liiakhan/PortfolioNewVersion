@@ -33,3 +33,21 @@
     gap: 24px;
     
 }
+
+.alongStakedTextLarge {
+    gap: 16px;
+    width: 700px;
+}
+
+
+.alongBodyText {
+    font-family: Nunito;
+    font-size: 24px;
+    color: #585168;
+}
+
+
+
+.alongBubblesBox {
+    
+}
