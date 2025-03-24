@@ -1,0 +1,35 @@
+.alongSectionOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.alongSubHeading {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.alongSubHeadingtext {
+    font-family: Nunito;
+    color: #A7A2B5;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.alongHeading {
+    font-family: Noto serif;
+    color: #2D204B;
+    font-size: 72px;
+    margin: 0;
+}
+
+
+.alongStakedText {
+    gap: 24px;
+    
+}
