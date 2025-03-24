@@ -49,5 +49,77 @@
 
 
 .alongBubblesBox {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.alongBubbleFull {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: end;
+}
+
+.alongBubblesRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.alongBubbleCard {
+    display: flex;
+    padding: 32px 24px;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 48px;
+
+
+
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 4px 7px 26px 0px rgba(157, 149, 206, 0.25);
+
+
+    width: 404px;
+
+    margin: 0;
+    gap: 16px;
+}
+
+
+.bubbleTextRegular {
+    color: #585168;
+
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+margin: 0;
+
+}
+
+.bubbleTextBold {
+    color: #292337;
+font-family: Nunito;
+font-size: 24px;
+font-style: bold;
+font-weight: 500;
+line-height: normal;
+margin: 0;
+
+}
+
+
+.alongBubbleImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 180px;
+}
+
+#secondBubble {
+    margin-top: 48px;
 }
