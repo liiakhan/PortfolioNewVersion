@@ -150,15 +150,19 @@ margin: 0;
     display: flex;
     justify-content: end;
     /* align-items: start; */
+    gap: 24px;
 }
 
 .alongWireframe {
     width: 300px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 4px 7px 26px 0px rgba(157, 149, 206, 0.25);
 
 }
 
 .wireDiv {
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 #Wire1 {
@@ -169,6 +173,6 @@ margin: 0;
     margin-top: 0;
 }
 
-#wire3 {
+#Wire3 {
     margin-top: 64px;
 }
