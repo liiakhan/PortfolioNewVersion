@@ -34,7 +34,7 @@
 
 .googleDecorativeText1 {
   color: #121212;
-  font-family: "Work Sans";
+  font-family: "Work Sans", sans-serif;
   font-size: 44px;
   font-style: normal;
   font-weight: 400;
@@ -44,7 +44,7 @@
 
 .googleDecorativeText2 {
   color: #121212;
-  font-family: "Work Sans";
+  font-family: "Work Sans", sans-serif;
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
@@ -63,7 +63,7 @@
 
 .googleExplanationText {
   color: var(--Text-Attentional, #121212);
-font-family: "Product Sans";
+  font-family: "Work Sans", sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
@@ -74,7 +74,7 @@ margin: 0;
 
 .googleExplanationSubtitle {
   color: #000;
-font-family: "Product Sans";
+  font-family: "Work Sans", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
