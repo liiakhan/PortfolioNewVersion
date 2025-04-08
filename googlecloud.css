@@ -59,6 +59,8 @@
   align-items: flex-start;
   gap: 48px;
   align-self: stretch;
+  width: 749px;
+height: 485px;
 }
 
 .googleExplanationText {
@@ -164,10 +166,111 @@ margin: 0;
 
 .googleSwatchText {
   color: #000;
-  font-family: "Product Sans";
+  font-family: "Work Sans", sans-serif;
   font-size: 26.543px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin: 0;
+}
+
+
+
+
+
+.googleHeading1 {
+  color: #1D2645;
+  font-family: "Work Sans", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 141.022%; /* 90.254px */
+  text-transform: lowercase;
+
+
+
+  display: flex;
+  padding: 32px 0px;
+  justify-content: start;
+  align-items: start;
+  gap: 8px;
+}
+
+
+
+#googleFourDecBold {
+  color: #000;
+  font-family: "Work Sans", sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 127.98%; /* 40.954px */
+margin: 0;
+}
+
+#googleFourDecReg {
+  color: #000;
+  font-family: "Work Sans", sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 127.98%; /* 40.954px */
+margin: 0;
+}
+
+
+.googleFourRow {
+  display: flex;
+align-items: center;
+gap: 41px;
+/* align-self: stretch; */
+}
+
+#googleFourColumn {
+  display: flex;
+  width: 255px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+
+#googleBlockFourRow {
+  display: flex;
+padding: 64px 0px;
+justify-content: space-between;
+align-items: flex-end;
+align-self: stretch;
+}
+
+
+
+
+.googleBlockFive {
+  display: flex;
+padding: 62px 0px;
+justify-content: space-between;
+align-items: flex-end;
+align-self: stretch;
+}
+
+
+#googlePersonaBox {
+  display: flex;
+  width: 799px;
+  height: 476.647px;
+  padding: 17.385px 17.385px 34.771px 17.385px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 11px 14.488px;
+  flex-wrap: wrap;
+
+
+
+
+  border-radius: 24.629px;
+  background: #FFF;
+
+  /* card/strong */
+  box-shadow: 0px 4px 14.8px 0px rgba(0, 41, 187, 0.35);
 }
